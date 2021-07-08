@@ -402,17 +402,20 @@ footer a:focus, footer a:hover {
   .tcontainer__text {
     width: 100%;
   }
-  .iframe-container {
-  overflow: hidden;
-  padding-top: 56.25%; /* 16:9*/
+.container {
   position: relative;
+  overflow: auto;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
-.iframe-container iframe {
-   border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
-}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 700px;
+  height: 200px;
 }
