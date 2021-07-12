@@ -430,3 +430,19 @@ ul.new > li {
   list-style: disc;
   margin: 0 0 6px 35px;
 }
+.learning-content{
+  Color:$red;
+  padding: .5em 0;
+}
+.persona-desc{
+  margin: .5em
+}
+}
+.footer-logo{
+  height:50px;
+  width: auto
+  margin-top: auto;
+}
+ol.new{
+  list-style: decimal;
+}
