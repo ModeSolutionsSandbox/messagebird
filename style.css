@@ -45,7 +45,10 @@ body {
   width: 100%;
   border-top: 0.25em solid #333;
 }
-
+#learning-paths {
+    display: flex;
+    justify-content: center;
+}
 .wrapper {
   margin: auto;
   width: 60em;
